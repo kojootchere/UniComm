@@ -1,0 +1,16 @@
+{{#each posts}}
+<!-- Start of the loop over 'posts' array -->
+<div class="post">
+    <!-- Start of an individual post container -->
+    <h2><a href="/post/{{ id }}">{{ title }}</a></h2>
+    <!-- Display the post title as a hyperlink -->
+    <p>by {{ user.username }}</p>
+    <!-- Display the post author's username -->
+    <p class="post-created">{{formatDate date_created}}</p>
+    <!-- Display the formatted creation date of the post -->
+    <p>{{content}}</p>
+    <!-- Display the post content -->
+</div>
+<!-- End of the individual post container -->
+{{/each}}
+<!-- End of the loop over 'posts' array -->

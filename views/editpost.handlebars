@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Document head section -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Post</title>
+</head>
+
+<body>
+    <!-- Document body section -->
+    <div class="container mt-5">
+        <!-- Container div with top margin -->
+        <h2>Edit Post</h2>
+        <!-- Heading for the edit post form -->
+        <form class="edit-post-form" id="edit-post-form" data-postid={{post.id}}>
+            <!-- Edit post form -->
+            <div class="mb-3">
+                <label for="title" class="form-label">Title:</label>
+                <!-- Label and input field for the post title -->
+                <input type="text" class="form-control" id="title" name="title" value="{{post.title}}" required />
+                <!-- Input field with the current post title pre-filled -->
+            </div>
+
+            <div class="mb-3">
+                <label for="content" class="form-label">Content:</label>
+                <!-- Label and textarea for the post content -->
+                <textarea class="form-control" id="content" name="content" rows="5" required>{{post.content}}</textarea>
+                <!-- Textarea with the current post content pre-filled -->
+            </div>
+
+            <button type="submit" class="btn btn-primary">Edit Post</button>
+            <!-- Submit button for editing the post -->
+        </form>
+    </div>
+</body>
+
+</html>

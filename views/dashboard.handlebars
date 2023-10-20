@@ -1,0 +1,27 @@
+<section class="card">
+  <!-- Start of Card Section -->
+
+  {{#each posts}}
+  <!-- Iterate through each post in the 'posts' array -->
+
+  <div class="post">
+    <!-- Start of Post Div -->
+    <h2><a href="/post/{{ id }}">{{ title }}</a></h2>
+    <!-- Post Title with a link to view the full post -->
+    <p>by {{ user.username }}</p>
+    <!-- Display the username of the post's author -->
+    <p class="post-created">{{formatDate date_created}}</p>
+    <!-- Display the creation date of the post, possibly formatted -->
+    <p>{{content}}</p>
+    <!-- Display the content of the post -->
+  </div>
+  <!-- End of Post Div -->
+
+  {{/each}}
+  <!-- End of Post Iteration -->
+
+</section>
+<!-- End of Card Section -->
+
+<a href="/logout">Go to logout</a>
+<!-- Display a link to log out -->

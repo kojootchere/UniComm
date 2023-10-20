@@ -1,0 +1,17 @@
+<section class="signup">
+    <h2>Sign Up</h2>
+    {{!-- TODO Use action and method to make get request and redirect--}}
+    <form class="signup-form">
+        <label for="signup-email">Email: </label>
+        <input type="email" id="signup-email" name="signup-email">
+        <label for="signup-username">Username: </label>
+        <input type="text" id="signup-username" name="signup-username">
+        <label for="signup-password">Password: </label>
+        <input type="password" id="signup-password" name="signup-password">
+        <button type="submit">Sign Up</button>
+    </form>
+{{!-- TODO add a route for signup, pass the URL here --}}
+    <p><a href="/login">Login instead</a></p>
+</section>
+
+<script src="/js/signup.js"></script>

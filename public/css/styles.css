@@ -1,0 +1,93 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Change font to Roboto for a modern look */
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa; /* Slightly lighter background for contrast */
+}
+
+/* Header */
+header {
+    background-color: #2c3e50; /* Darker shade for header */
+    color: #ecf0f1; /* Light text color for contrast */
+    padding: 20px 40px; /* Increased padding for a spacious feel */
+}
+
+header a {
+    color: #ecf0f1;
+    margin: 0 15px; /* Increased margin for better spacing */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+header a:hover {
+    color: #3498db; /* Change color on hover */
+}
+
+/* Main Content */
+main {
+    padding: 40px; /* Increased padding for a spacious feel */
+}
+
+/* Post Styles */
+.post {
+    border: 1px solid #ddd;
+    padding: 20px; /* Increased padding for a spacious feel */
+    margin-bottom: 20px; /* Increased margin for better spacing */
+    background-color: #ffffff;
+    border-radius: 8px; /* Rounded corners for a softer look */
+}
+
+.post .post-title {
+    font-size: 1.8em; /* Increased font size for prominence */
+    margin-bottom: 10px; /* Added margin for better spacing */
+}
+
+.post .post-content {
+    margin-top: 20px; /* Increased margin for better spacing */
+}
+
+/* Comment Styles */
+.comment {
+    border: 1px solid #ddd;
+    padding: 20px; /* Increased padding for a spacious feel */
+    margin-top: 20px; /* Increased margin for better spacing */
+    background-color: #f9f9f9;
+    border-radius: 8px; /* Rounded corners for a softer look */
+}
+
+.comment .comment-content {
+    margin-top: 20px; /* Increased margin for better spacing */
+}
+
+/* Form Styles */
+form {
+    border: 1px solid #ddd;
+    padding: 20px; /* Increased padding for a spacious feel */
+    margin-top: 20px; /* Increased margin for better spacing */
+    background-color: #ffffff;
+    border-radius: 8px; /* Rounded corners for a softer look */
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 15px; /* Increased padding for a better feel */
+    margin-top: 20px; /* Increased margin for better spacing */
+    border: 1px solid #ddd;
+    border-radius: 4px; /* Slightly rounded corners for inputs and textareas */
+}
+
+form button {
+    padding: 15px; /* Increased padding for a better feel */
+    background-color: #2c3e50; /* Matched with header color */
+    color: #ecf0f1;
+    border: none;
+    margin-top: 20px; /* Increased margin for better spacing */
+    border-radius: 4px; /* Slightly rounded corners for a softer look */
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+}
+
+form button:hover {
+    background-color: #3498db; /* Change color on hover */
+}

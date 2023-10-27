@@ -42,8 +42,8 @@ For any questions, please contact me at [https://github.com/kojootchere](https:/
 
 ![MementoScribe Landing Page](./screenshots/MementoScribe_Landing_Page.jpg)
 
-![MementoScribe Notes Page](./screenshots/MementoScribe_Notes_Page.jpg)
+![MementoScribe Details Page](./screenshots/MementoScribe_Notes_Page.jpg)
 
 ## Link to the Deployed Application
 
-Link to Deployed Application: https://mementoscribe-8b3f2af07cc2.herokuapp.com/
+Link to Deployed Application: https://unicomm-26d78845c240.herokuapp.com

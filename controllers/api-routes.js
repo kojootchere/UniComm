@@ -130,7 +130,7 @@ router.post('/signup', async (req, res) => {
     const signupData = await User.create({
       email: req.body.email,
       password: req.body.password,
-      name: req.body.name,
+      username: req.body.username,
     });
     if (!signupData) {
       return res.json({ message: 'This is not a valid sign up' });

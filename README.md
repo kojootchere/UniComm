@@ -40,9 +40,9 @@ For any questions, please contact me at [https://github.com/kojootchere](https:/
 
 ## Screenshots
 
-![MementoScribe Landing Page](./screenshots/MementoScribe_Landing_Page.jpg)
+![MementoScribe Landing Page](./assets/images/UniComm-Landing-Page.jpg.jpg)
 
-![MementoScribe Details Page](./screenshots/MementoScribe_Notes_Page.jpg)
+![MementoScribe Details Page](./assets/images/UniComm-Details-Page.jpg)
 
 ## Link to the Deployed Application
 

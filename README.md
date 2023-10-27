@@ -19,7 +19,7 @@ Core Features:
 - [License](#license)
 - [Contributions](#contributions)
 - [Questions](#questions)
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshots)
 - [Link to the Deployed Application](#link-to-the-deployed-application)
 
 ## Usage
